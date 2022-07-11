@@ -1,11 +1,10 @@
 import React from "react";
 // import { BasicTable } from "./BasicTable";
-import { APIDataTable } from "./APIDataTable";
+import { APIFuncionariosTable } from "./APIFuncionariosTable";
 
 
 export default function App() {
   return (
-
-      <APIDataTable />
+      <APIFuncionariosTable />
   );
 }

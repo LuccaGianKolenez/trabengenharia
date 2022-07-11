@@ -22,3 +22,26 @@ table {
     background-color: #eaf4fd;
   }
   
+.table-funcionarios{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+  }
+
+  .button-pesquisar{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    float: right;
+    padding-top: 7px;
+  }
+
+.filtro-funcionarios{
+    width: 350px;
+    padding-top: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
